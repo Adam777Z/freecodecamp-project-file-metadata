@@ -1,6 +1,6 @@
 /****** Main Styling ******/
 
-body {
+/* body {
 	font-family: 'Roboto', sans-serif;
 	font-size: 16px;
 	color: #222;
@@ -26,29 +26,36 @@ ul {
 
 a {
 	color: #2574A9;
-}
+} */
 
 input {
   display: block;
   position: relative;
-  margin: 10px auto;
-
+  margin: 5px auto;
 }
+
 input#button {
   width: 230px;
 }
+
 .view {
   position:relative;
-  margin: auto;
-  margin-top: 40px;
-  border: 1px  solid  #aaa;
+  margin: 10px auto;
+/*   margin-top: 40px; */
+  border: 1px solid #aaa;
   padding: 20px;
   width: 60%;
   min-width: 400px;
+  border-radius: 5px;
 }
+
 /****** Logo Div Styling ******/
 
 img {
 	margin: 20px auto 0 auto;
 	display: block;
+}
+
+.jumbotron {
+	margin-top: 2rem;
 }
