@@ -15,14 +15,14 @@ app.get('/', function (req, res) {
   });
 
 app.get('/hello', function(req, res){
-  res.json({greetings: "Hello, API"});
+  return res.json({greetings: "Hello, API"});
 });
 
 app.post('/api/fileanalyse', upload.single('upfile'), function(req, res) {
   if (req.file !== undefined) {
-    res.json({ filename: req.file.originalname, size: req.file.size, type: req.file.mimetype });
+    return res.json({ filename: req.file.originalname, size: req.file.size, type: req.file.mimetype });
   } else {
-    res.json({ error: 'file is required' });
+    return res.json({ error: 'file is required' });
   }
 });
 
