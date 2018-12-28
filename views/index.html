@@ -28,7 +28,10 @@
 						<div class="view text-center">
 							<h4 id="output"></h4>
 							<form action="/api/fileanalyse" method="POST" enctype="multipart/form-data">
-								<input id="inputfield" class="form-control-file" type="file" name="upfile">
+								<div class="custom-file">
+									<input id="inputfield" class="custom-file-input" type="file" name="upfile">
+									<label class="custom-file-label" for="inputfield">Choose file</label>
+								</div>
 								<input id="button" class="btn btn-primary" type="submit" value="Upload">
 							</form>
 						</div>
