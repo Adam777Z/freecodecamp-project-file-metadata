@@ -1,5 +1,5 @@
 {
-	"name": "File Metadata Microservice",
+	"name": "freecodecamp-project-file-metadata",
 	"version": "1.0.0",
 	"description": "freeCodeCamp - APIs and Microservices Project: File Metadata Microservice",
 	"author": "Adam",
@@ -17,7 +17,7 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/Adam111/freecodecamp-project-file-metadata"
+		"url": "https://github.com/Adam111/freecodecamp-project-file-metadata.git"
 	},
 	"keywords": [
 		"glitch",
