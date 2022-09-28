@@ -20,7 +20,11 @@ app.get('/hello', function(req, res){
 
 app.post('/api/fileanalyse', upload.single('upfile'), function(req, res) {
   if (req.file !== undefined) {
-    return res.json({ filename: req.file.originalname, size: req.file.size, type: req.file.mimetype });
+    return res.json({
+      name: req.file.originalname,
+      type: req.file.mimetype,
+      size: req.file.size
+    });
   } else {
     return res.json({ error: 'file is required' });
   }
