@@ -10,34 +10,29 @@
 </head>
 <body>
 	<div class="container">
-		<div class="row">
-			<div class="col">
-				<div class="jumbotron p-4">
-					<div class="container">
-						<h1 id="title" class="text-center">File Metadata Microservice</h1>
+		<div class="p-4 my-4 bg-light rounded-3">
+			<div class="row">
+				<div class="col">
+					<h1 id="title" class="text-center">File Metadata Microservice</h1>
 
-						<h3>User Stories:</h3>
-						<ol>
-							<li>I can submit a form object that includes a file upload.</li>
-							<li>The from file input field has the "name" attribute set to "upfile". We rely on this in testing.</li>
-							<li>When I submit something, I will receive the file name, and size in bytes within the JSON response.</li>
-						</ol>
+					<h3>User Stories:</h3>
+					<ol>
+						<li>I can submit a form object that includes a file upload.</li>
+						<li>The from file input field has the "name" attribute set to "upfile". We rely on this in testing.</li>
+						<li>When I submit something, I will receive the file name, and size in bytes within the JSON response.</li>
+					</ol>
 
-						<h3>Usage:</h3>
-						<p>Please upload a file...</p>
-						<div class="view text-center">
-							<h4 id="output"></h4>
-							<form action="/api/fileanalyse" method="POST" enctype="multipart/form-data">
-								<div class="custom-file">
-									<input id="inputfield" class="custom-file-input" type="file" name="upfile">
-									<label class="custom-file-label" for="inputfield">Choose file</label>
-								</div>
-								<input id="button" class="btn btn-primary" type="submit" value="Upload">
-							</form>
-						</div>
-
-						<div class="footer text-center">by <a href="https://www.freecodecamp.org" target="_blank">freeCodeCamp</a> & <a href="https://www.freecodecamp.org/adam777" target="_blank">Adam</a> | <a href="https://github.com/Adam777Z/freecodecamp-project-file-metadata" target="_blank">GitHub</a></div>
+					<h3>Usage:</h3>
+					<p>Please upload a file...</p>
+					<div class="view text-center">
+						<form action="/api/fileanalyse" method="post" enctype="multipart/form-data">
+							<label for="inputfield" class="form-label">Choose file</label>
+							<input type="file" name="upfile" id="inputfield" class="form-control">
+							<input id="button" class="btn btn-primary" type="submit" value="Upload">
+						</form>
 					</div>
+
+					<div class="footer text-center">by <a href="https://www.freecodecamp.org" target="_blank">freeCodeCamp</a> & <a href="https://www.freecodecamp.org/adam777" target="_blank">Adam</a> | <a href="https://github.com/Adam777Z/freecodecamp-project-file-metadata" target="_blank">GitHub</a></div>
 				</div>
 			</div>
 		</div>
