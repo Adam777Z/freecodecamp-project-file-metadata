@@ -4,7 +4,7 @@
 	font-family: 'Roboto', sans-serif;
 	font-size: 16px;
 	color: #222;
-	background-color: #ECF0F1;
+	background-color: #ecf0f1;
 	text-align: center;
 }
 
@@ -20,33 +20,34 @@
 ol {
 	list-style-position: inside;
 }
+
 ul {
 	list-style-type: none;
 }
 
 a {
-	color: #2574A9;
+	color: #2574a9;
 } */
 
 input {
-  display: block;
-  position: relative;
-  margin: 5px auto;
+	display: block;
+	position: relative;
+	margin: 5px auto;
 }
 
 input#button {
-  width: 230px;
+	width: 230px;
 }
 
 .view {
-  position:relative;
-  margin: 10px auto;
-  /* margin-top: 40px; */
-  border: 1px solid #aaa;
-  padding: 20px;
-  width: 60%;
-  min-width: 400px;
-  border-radius: 5px;
+	position: relative;
+	margin: 10px auto;
+	/* margin-top: 40px; */
+	border: 1px solid #aaa;
+	padding: 20px;
+	width: 60%;
+	min-width: 400px;
+	border-radius: 5px;
 }
 
 /****** Logo Div Styling ******/
